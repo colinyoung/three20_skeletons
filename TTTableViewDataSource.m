@@ -43,7 +43,7 @@ willAppearAtIndexPath:(NSIndexPath*)indexPath{
 
 - (NSString*)titleForError:(NSError*)error{ return @"Error"; }
 
-- (NSString*)subtitleForError:(NSError*)error{ return @"Sorry, there was an error.; }
+- (NSString*)subtitleForError:(NSError*)error{ return @"Sorry, there was an error."; }
 
 #pragma mark - UITableViewDataSource protocol delegate
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
