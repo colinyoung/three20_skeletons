@@ -53,3 +53,8 @@ willAppearAtIndexPath:(NSIndexPath*)indexPath{
 -(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 0;
 }
+
++ (NSArray*)lettersForSectionsWithSearch:(BOOL)search summary:(BOOL)summary {
+#warning lettersForSectionsWithSearch:summary: needs implementation
+	return nil;
+}
